@@ -1,0 +1,107 @@
+/* un fichier :root par projet  . voir pour magin 0 auto (*{ box-sizing: border-box; et autre }) dans root ? */
+
+
+.container{   
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--bg-dark-1);
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+    margin: 0 auto;  
+
+}
+p:hover{
+    color: var(--clr-hover);
+}
+hr {
+    border: none;
+    border-top: 1px solid var(--clrtxt);
+}
+
+.footer{
+    background-color: var(--bg-dark-2);
+    margin: 0 auto;
+    padding: 2rem;
+    color: var(--clrtxt);
+    padding-top: 5rem;
+}
+
+.footer1{
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    
+}
+
+.footer1 p{
+    padding-top: .4rem;
+}
+
+.footer1 div{
+    padding-top: 2rem;
+    max-width: 1500px;
+    text-align: start;
+    
+}
+
+.footer1 img{
+    padding-top: .5rem;
+
+}
+
+@media(max-width:500px){
+    .footer1 img{
+        margin: 0 auto;
+        max-width: 200px;
+        align-content: center;
+
+    }
+    .footer1 div{
+        text-align: start;
+    }
+}
+
+.footer2{
+    text-align: center;
+    padding: 2rem;
+    max-width: 1500px;
+}
+
+.footer2 p{
+    padding: 1rem;
+}
+
+.footer_resaux{
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+}
+
+.footer_resaux img{
+    width: 3rem;
+    padding-left: .5rem;
+}
+
+.footer3{
+    text-align: center;
+    padding: 2rem;
+    font-size: 13px;
+    max-width: 1500px;
+}
+
+.footer3 p{
+    padding-top: 1rem;
+}
+
+span{
+    color: var(--clr-span);
+}

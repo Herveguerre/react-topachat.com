@@ -1,0 +1,42 @@
+.card_xl{
+   
+    color: var(--clrtxt);
+    padding: 1rem;
+    margin-left: -9rem;
+
+}
+.card_xl_1 img{
+width: 49vw;
+
+}
+.title{
+    font-size: 2.2rem;
+    padding: 2rem;
+    text-align: start;
+}
+.card_xl_2 img{
+    border-radius: 10px;
+    
+    margin: 2rem;
+}
+.card_xl_flex{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    
+}
+@media (max-width:1200px) {
+    .card_xl_flex{
+        display: block;
+        
+    }
+    
+    
+}
+.card_xl_3 p{
+    padding-top: 1.5rem;
+    font-size:  2rem;
+    width: 25vw;
+    
+    
+}

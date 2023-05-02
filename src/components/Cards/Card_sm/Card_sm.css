@@ -1,0 +1,50 @@
+.card_sm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    height: 150px;
+  
+    border-radius: 10px;
+
+}
+.card{
+    justify-content: space-between;
+    height: 130px;
+    width: 160px;
+    background-color: var(--bg-dark-2);
+    padding: 1rem;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+
+    
+
+}
+.card p{
+    color: var(--clrtxt);
+    text-align: center;
+    font-weight: 500;
+    padding: .5rem;
+    
+    
+    
+}
+/* attention ne pas appeler la carte card_sm dans topbrand et dans card_sm.js     */
+
+
+.card img{
+    margin: 0 auto;
+    display: block;
+    width: 70px;
+    border-radius: 10px;
+    align-content: center;
+}
+@media  (max-width:120px){
+    .card_sm{
+        width: 350px;
+    }
+    .contanert{
+        width: 350px;
+    }
+}

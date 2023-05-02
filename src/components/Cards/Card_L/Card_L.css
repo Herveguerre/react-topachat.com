@@ -1,0 +1,36 @@
+.Card_L{
+    background-color: var(--bg-dark-1);
+    border-radius: 10px;
+    color: var(--clrtxt);
+    
+}
+.card_parent{
+    padding: 1rem;
+    background-color: var(--bg-dark-2);
+    width: 20vw;
+    display: flex;
+    border-radius: 10px;
+    margin: 1rem; 
+}
+.card_L p{
+    text-align: start;
+    padding: .5rem;
+    width: 100%;
+}
+p:hover{
+    color: var(--clr-hover);
+    
+}
+.Card_L img{
+    border-radius: 10px;
+    padding: 1rem;
+}
+.prix{
+    color: var(--clr-txt-red);
+    text-align: start;
+
+}
+.title_img{
+    text-align: center;
+    
+}

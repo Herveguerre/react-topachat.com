@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;  
+    margin: 0 auto;  
+    font-size: clamp(10px, 1vw, 16px);
+}
+@media   (max-width: 1200px){
+    .section2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+}
+h2{
+    text-align: center;
+    padding: .5rem;
+    color: var(--clrtxt);
+    font-size: 2vw;
+}
+p:hover{
+    color: var(--clr-hover);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--clrtxt);
+    border-radius: 10px;
+    width: 45vw;
+    padding-top: 1rem;
+    
+
+}
+/* pour la prochaine fois faire le responsie a chaque section fini, faire plus de variable pour les card      */
+@media (max-width:1200px) {
+    .flex{
+        display: block;
+        padding-top: 2rem;
+    }
+    .containert{
+        height: 90vh;
+    }
+    
+}
+.flexR{
+    width: 40vw;
+}
+.containert{   
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 4rem;
+    padding-bottom: 9rem; 
+    width: 99vw;  
+    flex-wrap: wrap;
+    border-radius: 20px;
+
+}
+
+.bg{
+    background-color: var(--bg-dark-1);
+    width: 100vw;
+    
+}
+
+
+
+.Card_L_2,
+.Card_L_3{
+    border-radius: 10px;
+    background-color: var(--bg-dark-2);
+}
+.Card_L_2 img,
+.Card_L_3 img{
+    width: 300px;
+    padding: 1rem;
+    z-index: 0;
+
+}
+
+.section1{
+    
+    display: flex;
+}
+.section2{
+    flex-wrap: wrap;
+}
+@media (max-width:1200px) {
+    .section1,
+    .section2,
+    .Product_parent{
+        padding-top: 5rem;
+        padding-bottom: 9rem;
+        
+    }
+    
+}
